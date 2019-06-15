@@ -1,0 +1,202 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: url(img/game2.jpg);
+    background-size: auto; 
+    color:whitesmoke;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.header{
+    height:100px;
+    font-family: fantasy;
+    font-size: 60px;
+    text-align: center;
+}
+.box_textshadow {
+     text-shadow: 2px 2px 0px #FF0000; 
+     position:absolute;
+     margin-left:27%;
+}
+.mainnavbar{
+    color:red;
+}
+
+
+.mainnav{
+    
+   margin-right: 30px;
+   margin-top: 20px;
+}
+.mainnav > li{
+     float:left;
+}
+.red{
+    color:rgba(254,53,24,0.8);
+    padding-right:8px;
+}
+.dropdownfocu:sselect{
+    background-color: black;
+    color:white;
+}
+
+.headerul{
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+.headerul:hover{
+    text-decoration: none;
+    
+}
+.block
+{
+    background-color: rgba(255, 0, 0,0.2);
+    color:whitesmoke;
+    height:100%;
+    width:800px;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size:30px;
+    
+    
+}
+.block1
+{
+    background-color: rgba(255, 0, 0,0.2);
+    color:whitesmoke;
+    height:900px;
+    width:800px;
+    margin-top: 40px;
+    margin-left: 15%;
+    font-size:30px;
+    
+}
+.games
+{
+    margin-left: 40px; 
+    float:left;
+    
+}
+.games img
+{
+    height:150px;
+    width:200px;
+    border-radius: 30px;
+    padding:10px;
+    opacity:0.8; 
+    transition:opacity 1s;
+    transition:box-shadow 1s;
+    
+}
+.games img:hover
+{
+    transition:opacity 1s;
+    transition:box-shadow 1s;
+    opacity:1;
+    box-shadow: 4px 4px 7px 4px black;
+}
+.brate
+{
+    clear:both;
+}
+p
+{
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-align: center;   
+}
+.more
+{
+    margin-top: 100px; 
+    font-size:20px;
+    float:left;
+}
+.footer
+{
+    clear:both;
+    height:200px;
+    width:100%;
+    background-color: black;
+    padding: 10px;
+    padding-top:30px;
+    
+   
+}
+.sfooter
+{
+    //border:solid 5px #ff66cc;
+    float:left;
+    margin-top:20px;
+    margin-left:0px;
+    font-size: 20px;
+    padding: 0px 20px 0px 30px;
+}
+.vline
+{
+    height:130px;
+    width:1px;
+    background-color: #ffffff;
+    float:left;
+    margin-left:100px;
+    margin-right:100px;
+    margin-top:20px;
+}
+.ss{
+    padding: 40px;
+}
+.ss img{
+    height:350px;
+    width:700px;
+    margin:20px;
+    border-radius: 10px;
+}
+.dis{
+    padding:20px;
+}
+.dis i{
+    font-size:20px;
+}
+.dl{
+    margin-right: auto;
+    margin-left: auto;
+    width:400px;
+}
+.dl a{
+    text-align: center;
+    display: block;
+    background-color: black;
+    padding:10px;
+    border-radius: 10px 10px 0 0;
+    opacity: 0.7;
+    transition: 1s;
+}
+.dl a:hover{
+    transition: 1s;
+    text-decoration: none;
+    opacity: 1;
+    
+
+}
+.dropopacity
+{
+    opacity:1;
+}
+
+.inner-menu
+{
+	background-color:#f7f4f4;
+}
+
+.remove-color
+{
+	background-color:transparent !important;	
+}
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
+{
+	color:#fd4c33 !important;
+}
